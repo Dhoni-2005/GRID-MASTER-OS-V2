@@ -1,3 +1,4 @@
+# Render deployment path verification
 """
 master_entry.py — GRID-MASTER-OS-V2 Render Deployment Launcher
 
