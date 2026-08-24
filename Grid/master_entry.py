@@ -121,7 +121,7 @@ _install_package_casing_shim()
 # ══════════════════════════════════════════════════════════════
 # STEP 1 — Import the existing, unmodified Grid Master runtime
 # ══════════════════════════════════════════════════════════════
-import Grid.master as grid_master  # noqa: E402  (must follow the shim above)
+import grid_master  # noqa: E402  (must follow the shim above)
 import database as _database       # noqa: E402  (base schema bootstrap only — see main())
 
 log = logging.getLogger("gridmaster.master_entry")
